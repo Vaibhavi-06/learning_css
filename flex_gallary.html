@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            .flex-items{
+                background-color: blueviolet;
+                width: 20px;
+                height: 15px;
+                color: azure;
+                text-align: center;
+                font-size: 50px;
+                margin: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                list-style: none;
+            
+            }
+            .flex-container{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                /* center,space-evenly,space-between,space-around */
+                justify-content:space-between;
+                align-items: center;
+            }
+        </style>
+</head>
+<body>
+     <ul class="flex-container">
+            <li class="flex-items"><img src="Images/flower1.jpg"></li>
+            <li class="flex-items"><img src="Images/flower2.jpg"></li>
+            <li class="flex-items"><img src="Images/nature.jpg"></li>
+            <li class="flex-items"><img src="Images/bird.jpg"></li>
+        </ul>
+</body>
+</html>
